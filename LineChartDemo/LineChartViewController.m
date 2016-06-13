@@ -1,6 +1,6 @@
 //
 //  LineChartViewController.m
-//  BarChartDemo
+//  LineChartDemo
 //
 //  Created by lihongfeng on 16/6/13.
 //  Copyright © 2016年 wanglei. All rights reserved.
@@ -153,10 +153,9 @@
         LineChartData *data = (LineChartData *)self.LineChartView.data;
         set1 = (LineChartDataSet *)data.dataSets[0];
         set1.yVals = yVals;
-        data.xValsObjc = xVals;
         return data;
     }else{
-        //创建BarChartDataSet对象
+        //创建LineChartDataSet对象
         set1 = [[LineChartDataSet alloc] initWithYVals:yVals label:@"lineName"];
         //设置折线的样式
         set1.lineWidth = 1.0/[UIScreen mainScreen].scale;//折线宽度

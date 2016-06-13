@@ -511,6 +511,7 @@
 				61D7D5311D0EA8F100553AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
